@@ -1,14 +1,14 @@
-# def my_each(array)
-#   i = 0 
+def my_each(array)
+  i = 0 
   
-#   while i < array.length 
-#     yield[i]
-#     i += 1 
-#   end
+  while i < array.length 
+    yield[i]
+    i += 1 
+  end
   
-#   return array 
+  return array 
   
-# end
+end
 
 
 
