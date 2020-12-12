@@ -11,5 +11,7 @@ def my_each(array)
 end
 
 
-
+my_each([1, 2, 4, 5]) do |i|
+  puts i 
+end
 
